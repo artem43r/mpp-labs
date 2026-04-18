@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|d:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\studyplanner\\studyplanner\\models\\assignmenttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|solutionrelative:studyplanner\\models\\assignmenttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|d:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\studyplanner\\studyplanner\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|solutionrelative:studyplanner\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|d:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\studyplanner\\studyplanner\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|solutionrelative:studyplanner\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|d:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\studyplanner\\studyplanner\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|solutionrelative:studyplanner\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|d:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\studyplanner\\studyplanner\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|solutionrelative:studyplanner\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|d:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\studyplanner\\studyplanner\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|solutionrelative:studyplanner\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|d:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\studyplanner\\studyplanner\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75819C77-582A-4F2A-BA26-0E7F897FE02B}|StudyPlanner\\StudyPlanner.csproj|solutionrelative:studyplanner\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "StudyPlanner\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "StudyPlanner\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T03:27:21.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignmentTag.cs",
+              "DocumentMoniker": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\AssignmentTag.cs",
+              "RelativeDocumentMoniker": "StudyPlanner\\Models\\AssignmentTag.cs",
+              "ToolTip": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\AssignmentTag.cs",
+              "RelativeToolTip": "StudyPlanner\\Models\\AssignmentTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T03:26:54.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "StudyPlanner\\Models\\Comment.cs",
+              "ToolTip": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\Comment.cs",
+              "RelativeToolTip": "StudyPlanner\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T03:26:41.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "StudyPlanner\\Models\\Tag.cs",
+              "ToolTip": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\Tag.cs",
+              "RelativeToolTip": "StudyPlanner\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T03:26:33.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "StudyPlanner\\Models\\Subject.cs",
+              "ToolTip": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\Subject.cs",
+              "RelativeToolTip": "StudyPlanner\\Models\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T03:26:26.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\Assignment.cs",
+              "RelativeDocumentMoniker": "StudyPlanner\\Models\\Assignment.cs",
+              "ToolTip": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\Assignment.cs",
+              "RelativeToolTip": "StudyPlanner\\Models\\Assignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T03:26:19.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\User.cs",
+              "RelativeDocumentMoniker": "StudyPlanner\\Models\\User.cs",
+              "ToolTip": "D:\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\StudyPlanner\\StudyPlanner\\Models\\User.cs",
+              "RelativeToolTip": "StudyPlanner\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T03:26:10.251Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
