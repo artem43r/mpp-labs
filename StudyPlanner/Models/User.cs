@@ -1,24 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
+
 namespace StudyPlanner.Models
 {
-
-    public class User
+    public class User : IdentityUser<int>
     {
-        public int Id { get; set; }
-
-        [Required(ErrorMessage = "Имя пользователя обязательно")]
-        [StringLength(100, MinimumLength = 3, ErrorMessage = "Имя должно содержать от 3 до 100 символов")]
-        public string Username { get; set; }
-
-        [Required(ErrorMessage = "Email обязателен")]
-        [EmailAddress(ErrorMessage = "Некорректный формат email")]
-        public string Email { get; set; }
-
-        [Required]
-        public string PasswordHash { get; set; }
-
         public string? Avatar { get; set; }
 
         [DataType(DataType.DateTime)]

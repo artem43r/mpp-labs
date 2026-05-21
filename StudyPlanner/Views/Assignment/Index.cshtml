@@ -1,0 +1,49 @@
+﻿@model IEnumerable<StudyPlanner.Models.Assignment>
+
+<h2>Мои задания</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Создать задание</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Предмет</th>
+            <th>Статус</th>
+            <th>Приоритет</th>
+            <th>Дедлайн</th>
+            <th>Теги</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var assignment in Model)
+        {
+            <tr>
+                <td>@assignment.Title</td>
+                <td>@assignment.Subject?.Name</td>
+                <td>@assignment.Status</td>
+                <td>@assignment.Priority</td>
+                <td>@assignment.Deadline</td>
+                <td>
+                    @foreach (var tag in assignment.AssignmentTags)
+                    {
+                        <span>@tag.Tag.Name </span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@assignment.Id">Подробнее</a> |
+                    <a asp-action="Edit" asp-route-id="@assignment.Id">Редактировать</a> |
+                    <form asp-action="Delete" asp-route-id="@assignment.Id" method="post" style="display:inline;">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" style="border:none;background:none;color:red;cursor:pointer;">
+                            Удалить
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

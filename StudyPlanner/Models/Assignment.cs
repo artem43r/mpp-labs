@@ -28,7 +28,7 @@ namespace StudyPlanner.Models
         public string Priority { get; set; } = "Medium";
 
         // ДОБАВКА ИЗ ТВОЕЙ ЛАБЫ 1
-        public string Recurrence { get; set; }
+        public string Recurrence { get; set; } = "None";
 
         // FK
         public int? SubjectId { get; set; }
@@ -39,7 +39,7 @@ namespace StudyPlanner.Models
         public Subject? Subject { get; set; }
 
         [ForeignKey("UserId")]
-        public User User { get; set; }
+        public User? User { get; set; }
 
         public ICollection<AssignmentTag> AssignmentTags { get; set; } = new List<AssignmentTag>();
 

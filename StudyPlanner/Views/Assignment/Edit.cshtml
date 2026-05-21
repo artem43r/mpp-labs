@@ -1,0 +1,73 @@
+﻿@model StudyPlanner.Models.Assignment
+
+@{
+    var selectedTags = ViewBag.SelectedTags as int[] ?? Array.Empty<int>();
+}
+
+<h2>Редактировать задание</h2>
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SubjectId">Предмет</label>
+        <select asp-for="SubjectId" asp-items="ViewBag.Subjects" class="form-control">
+            <option value="">Без предмета</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Status"></label>
+        <input asp-for="Status" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Priority"></label>
+        <input asp-for="Priority" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Deadline"></label>
+        <input asp-for="Deadline" type="datetime-local" class="form-control" />
+        <span asp-validation-for="Deadline" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Recurrence"></label>
+        <input asp-for="Recurrence" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Теги</label>
+
+        @foreach (var tag in ViewBag.Tags)
+        {
+            <div>
+                <input type="checkbox"
+                       name="selectedTags"
+                       value="@tag.Id"
+                @(selectedTags.Contains((int)tag.Id) ? "checked" : "") />
+                @tag.Name
+            </div>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</form>
+
+<p>
+    <a asp-action="Index">Назад к списку</a>
+</p>

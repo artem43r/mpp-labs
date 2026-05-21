@@ -1,22 +1,22 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using StudyPlanner.Models;
 
 namespace StudyPlanner.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<User, IdentityRole<int>, int>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
         }
 
-        // DbSet для каждой сущности
-        public DbSet<User> Users { get; set; }
-        public DbSet<Subject> Subjects { get; set; }      // Project → Subject
+        public DbSet<Subject> Subjects { get; set; }
         public DbSet<Tag> Tags { get; set; }
-        public DbSet<Assignment> Assignments { get; set; } // Task → Assignment
-        public DbSet<AssignmentTag> AssignmentTags { get; set; } // TaskTag → AssignmentTag
-        public DbSet<Comment> Comments { get; set; } // ДОП
+        public DbSet<Assignment> Assignments { get; set; }
+        public DbSet<AssignmentTag> AssignmentTags { get; set; }
+        public DbSet<Comment> Comments { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -27,17 +27,17 @@ namespace StudyPlanner.Data
                 .HasIndex(u => u.Email)
                 .IsUnique();
 
-            // Уникальность Username
+            // Уникальность UserName
             modelBuilder.Entity<User>()
-                .HasIndex(u => u.Username)
+                .HasIndex(u => u.UserName)
                 .IsUnique();
 
-            // Уникальность Tag (в рамках пользователя)
+            // Уникальность тегов
             modelBuilder.Entity<Tag>()
                 .HasIndex(t => new { t.Name, t.OwnerId })
                 .IsUnique();
 
-            // Subject → User (Project → User)
+            // Subject → User
             modelBuilder.Entity<Subject>()
                 .HasOne(s => s.Owner)
                 .WithMany(u => u.Subjects)
@@ -51,21 +51,21 @@ namespace StudyPlanner.Data
                 .HasForeignKey(t => t.OwnerId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Assignment → User (Task → User)
+            // Assignment → User
             modelBuilder.Entity<Assignment>()
                 .HasOne(a => a.User)
                 .WithMany(u => u.Assignments)
                 .HasForeignKey(a => a.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Assignment → Subject (Task → Project)
+            // Assignment → Subject
             modelBuilder.Entity<Assignment>()
                 .HasOne(a => a.Subject)
                 .WithMany(s => s.Assignments)
                 .HasForeignKey(a => a.SubjectId)
                 .OnDelete(DeleteBehavior.SetNull);
 
-            // AssignmentTag (M:N)
+            // AssignmentTag
             modelBuilder.Entity<AssignmentTag>()
                 .HasOne(at => at.Assignment)
                 .WithMany(a => a.AssignmentTags)
@@ -78,14 +78,14 @@ namespace StudyPlanner.Data
                 .HasForeignKey(at => at.TagId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Comment → Assignment (ДОП)
+            // Comment → Assignment
             modelBuilder.Entity<Comment>()
                 .HasOne(c => c.Assignment)
                 .WithMany(a => a.Comments)
                 .HasForeignKey(c => c.AssignmentId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Comment → User (ДОП)
+            // Comment → User
             modelBuilder.Entity<Comment>()
                 .HasOne(c => c.User)
                 .WithMany()
