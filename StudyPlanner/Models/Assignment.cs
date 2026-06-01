@@ -27,7 +27,7 @@ namespace StudyPlanner.Models
         [Required]
         public string Priority { get; set; } = "Medium";
 
-        // ДОБАВКА ИЗ ТВОЕЙ ЛАБЫ 1
+        
         public string Recurrence { get; set; } = "None";
 
         // FK

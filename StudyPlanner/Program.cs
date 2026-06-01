@@ -65,4 +65,40 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Assignment}/{action=Index}/{id?}");
 
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+
+    context.Database.Migrate();
+
+    if (!context.Users.Any())
+    {
+        var user = new User
+        {
+            UserName = "testuser",
+            Email = "test@example.com",
+            CreatedAt = DateTime.UtcNow
+        };
+        await userManager.CreateAsync(user, "Test123!");
+
+        var subjects = new[]
+        {
+            new Subject { Name = "Математика", Color = "FF5733", OwnerId = user.Id },
+            new Subject { Name = "Физика", Color = "33FF57", OwnerId = user.Id },
+            new Subject { Name = "Программирование", Color = "3357FF", OwnerId = user.Id }
+        };
+        context.Subjects.AddRange(subjects);
+        await context.SaveChangesAsync();
+
+        var tags = new[]
+        {
+            new Tag { Name = "Важное", OwnerId = user.Id },
+            new Tag { Name = "Срочное", OwnerId = user.Id },
+            new Tag { Name = "Идея", OwnerId = user.Id }
+        };
+        context.Tags.AddRange(tags);
+        await context.SaveChangesAsync();
+    }
+}
 app.Run();
